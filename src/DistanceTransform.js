@@ -13,6 +13,8 @@
     it to a high value (e.g., 255) for this. Set oob to 0 to treat out of bounds
     as background pixels.
 */
+
+// github test
 export function distanceTransform (foregroundPixels, oob = 255) {
   var dist = foregroundPixels // not a copy. We're modifying the input
   // Variables to represent the 3x3 neighborhood of a pixel.
